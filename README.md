@@ -1,7 +1,7 @@
 # AI-Agent Hedge Fund  
 *A LangChain + Perplexity Sonar reference project (≤ 100 LOC)*  
 
-> **Educational-use only — _not_ financial advice._**
+> **Educational-use only — _not_ financial advice.**
 
 ---
 
