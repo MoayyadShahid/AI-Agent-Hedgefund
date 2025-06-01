@@ -6,7 +6,7 @@
 ---
 
 ## ✨ What it is
-This repo shows how to turn a single stock-ticker input into a **data-driven trading thesis** using nothing but LangChain and the Perplexity Sonar API.  
+This repo shows how to turn a single stock-ticker input into a **data-driven trading thesis** using LangChain and the Perplexity Sonar API.  
 Five lightweight AI agents cooperate in sequence:
 
 | # | Agent role | Output |
@@ -32,15 +32,17 @@ Everything is wired together with a single `SequentialChain`, giving clear, step
 
 ## 🚀 Quick Start
 
-git clone https://github.com/MoayyadShahid/ai-agent-hedge-fund.git
-cd ai-agent-hedge-fund
+```git clone https://github.com/MoayyadShahid/ai-agent-hedge-fund.git``` 
 
-# create & activate a fresh conda env
-conda create -n ai-hedge-fund python=3.9 -y
-conda activate ai-hedge-fund
+```cd ai-agent-hedge-fund```
 
-# install deps, set your key, run
-pip install langchain==0.3.19 langchain-community==0.3.18 openai==1.65.2 ipykernel==6.29.5  
+# Create & activate a fresh conda env
+```conda create -n ai-hedge-fund python=3.9 -y```
 
-# add your own Perplexity Sonar API key
+```conda activate ai-hedge-fund```
+
+# Install deps, set your key, run
+```pip install langchain==0.3.19 langchain-community==0.3.18 openai==1.65.2 ipykernel==6.29.5```  
+
+# Add your own Perplexity Sonar API key
 ```PPLX_API_KEY = "API KEY GOES HERE"```
